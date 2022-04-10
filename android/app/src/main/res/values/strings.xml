@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TVOZ</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">kaifUE2Fx_kHEy5hEHkuEA6vNm3sFwdd9-s1Q</string>
+</resources>

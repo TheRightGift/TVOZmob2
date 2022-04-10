@@ -1,0 +1,57 @@
+{
+  "name": "TVOZ",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/toolbar-android": "^0.1.0-rc.2",
+    "lottie-react-native": "^3.5.0",
+    "moment": "^2.29.1",
+    "native-base": "https://github.com/fdkitlui/NativeBase.git",
+    "react": "16.13.1",
+    "react-native": "0.63.3",
+    "react-native-animated-loader": "^0.0.8",
+    "react-native-code-push": "^6.3.0",
+    "react-native-device-info": "^6.2.0",
+    "react-native-elements": "^2.3.2",
+    "react-native-gesture-handler": "^1.8.0",
+    "react-native-hide-show-password-input": "^1.1.0",
+    "react-native-notifier": "^1.3.2",
+    "react-native-orientation": "^3.1.3",
+    "react-native-paper": "^4.2.0",
+    "react-native-reanimated": "^1.13.1",
+    "react-native-safe-area-context": "^3.1.8",
+    "react-native-screens": "^2.11.0",
+    "react-native-splash-screen": "^3.2.0",
+    "react-native-sqlite-storage": "^5.0.0",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-video": "^5.1.0-alpha8",
+    "react-native-vlc-media-player": "^1.0.28",
+    "react-navigation": "^4.4.2",
+    "react-navigation-material-bottom-tabs": "^2.3.2",
+    "react-navigation-stack": "^2.8.4",
+    "react-redux": "^7.2.1",
+    "redux": "^4.0.5",
+    "socket.io-client": "^2.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/runtime": "^7.11.2",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.5.2",
+    "eslint": "^7.10.0",
+    "jest": "^26.5.2",
+    "metro-react-native-babel-preset": "^0.63.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
